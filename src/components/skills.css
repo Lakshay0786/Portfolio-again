@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;600;800&family=Rampart+One&family=Righteous&family=Roboto&display=swap');
+@font-face {
+  font-family: roblex;
+  src: url(/public/fonts/Roblox-Font-Regular.ttf);
+}
+
+.skillbox {
+    width: 100%;
+    margin-top: 0px;
+    height: auto;
+    /* background-image: url("../assets/skillbg.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-color: #070410;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    background-image: url(../img/claudio-errico-claudio-errico-fotografo-digital-artist-101-years-plus-vat-detail-4.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    
+  }
+  .h1{
+    display: flex;
+    justify-content: center;
+  }
+  .skillh1{
+    z-index: 3;
+    color: #070410;
+    margin-bottom: 20px;
+    font-size: 5rem;
+    position: relative;
+    /* left:40% ; */
+    margin-top: 0px;
+    align-items: center;
+    /* margin-left: 60px; */
+    /* margin-left: 500px; */
+  }
+  .para {
+    width: fit-content;
+    z-index: 5;
+  }
+  li p {
+    z-index: 4;
+  }
+  .skillbox::before {
+    content: "Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills";
+    position: absolute;
+    font-size: 6rem;
+    color: #2c2c2c;
+    z-index: 0;
+    width: 200%;
+    overflow: hidden;
+    transform: rotate(-45deg);
+  }
+  
+  .skillbox h3 {
+    font-size: 5vmax;
+    letter-spacing: 1px;
+    z-index: 1000;
+  }
+  .container {
+    width: 150px;
+    height: 300px;
+    animation: rotation 15s linear infinite alternate;
+    transform-style: preserve-3d;
+  }
+  
+  .skills {
+    display: flex;
+  }
+  
+  .skill {
+    width: 50px;
+    height: 100px;
+    background: #5e4506;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    padding: 5px;
+    color: #fff;
+    position: relative;
+    box-shadow: 2px 200px 176px -43px rgba(0, 0, 0, 0.84);
+  }
+  
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skilllist {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    margin: 30px;
+    transition: 0.5s;
+  }
+  
+  .skilllist:hover {
+    z-index: 10000;
+    transform: scale(0.75);
+  }
+  
+  .skilllist::before {
+    content: "";
+    position: absolute;
+    inset: 30px;
+    box-shadow: 0 0 0 10px #1da1f2, 0 0 0 20px #070410, 0 0 0 22px #1da1f2;
+    transition: 0.5s;
+  }
+  
+  .skilllist::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #070410;
+    transform: rotate(45deg);
+    z-index: 0;
+  }
+  
+  .skilllist:hover::before {
+    inset: 0;
+  }
+  
+  .skilla {
+    position: relative;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.4s;
+    z-index: 1;
+  }
+  
+  .skilllist:hover .skilla {
+    font-size: 3rem;
+    filter: drop-shadow(0 0 20px #1da1f2) drop-shadow(0 0 40px #1da1f2)
+      drop-shadow(0 0 60px #1da1f2);
+  }
+  
+  .skilllist svg {
+    z-index: 1 !important;
+    font-size: 3rem;
+  }
+  
+  .skilllist img {
+    z-index: 1 !important;
+    font-size: 2rem;
+    width: 50px;
+  }
+  
+  @media (max-width: 500px) {
+    .skillbox::before {
+      font-size: 3rem;
+    }
+    .skillbox {
+      height: fit-content;
+    }
+  }
+  
+  .next{
+    filter: invert(1);
+
+  }
+
+  
+  @media only screen and (max-width: 800px) {
+    .skillbox{
+        flex-direction: column;
+        
+    } 
+    .skills-p{
+      font-size: 14px;
+      font-family: 'poppins';
+      font-weight: 400;
+      margin-bottom: 30px;
+      
+     } 
+     .skillh1{
+      z-index: 3;
+      color: #070410;
+      font-size: 3rem;
+      margin-top: 0px;
+      align-items: center;
+
+      /* margin-left: 500px; */
+    }
+ }
+
+ .skillbox .skills .ul-list{
+  display: flex;
+  flex-direction: row;
+ }
+
+ .Exp{
+  margin-bottom: 50px;
+  z-index: 5;
+  width: 90%;
+
+ }
+ .skills-p{
+  font-size: 16px;
+  font-family: 'poppins';
+  font-weight: 400;
+  margin-bottom: 30px;
+  
+ }
+
+ .skills-p span{
+  color: rgb(230, 97, 97);
+  font-family: 'poppins';
+  font-weight: 600;
+ }
+
+ .skillbox{
+  justify-content: center;
+  align-items: center;
+ }

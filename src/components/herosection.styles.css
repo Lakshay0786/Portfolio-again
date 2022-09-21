@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;600;800&family=Rampart+One&family=Righteous&family=Roboto&display=swap');
+@font-face {
+    font-family:'roblox-bold';
+    src: url(/public/fonts/Roblox-Font-Bold.ttf);
+}
+@font-face {
+    font-family:'roblox-light';
+    src: url(/public/fonts/Roblox-Font-Regular.ttf);
+}
+@font-face {
+    font-family:'memphis';
+    src: url(/public/fonts/MemphisRiver.ttf);
+}
+/* font-family: 'Anton', sans-serif;
+font-family: 'Rampart One', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+
+}
+
+.bg-top{
+
+    width: 100%;
+    height: 100%;
+    /* background-image: url('./img/clement-martinet-01green-garden.jpg'); */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../img/clement-martinet-01green-garden.jpg);
+    background-size: cover;
+    /* background-blend-mode:soft-light; */
+    background-repeat: no-repeat;
+}
+.bg {
+    display: flex;
+    flex: 1 1;
+    /* flex-direction: column; */
+}
+
+.bg .img {
+    width: 50%;
+    position: relative;
+    /* top: 5px; */
+
+}
+
+.bg .textbox {
+    width: 50%;
+    
+}
+
+.bg .img .main-img {
+    width: 710px;
+    height: 700px;
+    top: 5px;
+    position: relative;
+    right: 100px;
+
+}
+
+h1 {
+    /* margin-top: 250px; */
+    margin-top: 100px;
+    overflow: hidden;
+    font-size: 5rem;
+    /* width: 70%; */
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'roblox-bold', sans-serif;
+
+}
+.headline-spam{
+    font-family: 'memphis';
+
+    font-size: 3rem;
+    color: pink;
+
+}
+.span-tagline {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    font-size: 4rem;
+    color: whitesmoke;
+    color: pink;
+}
+
+.title {
+    margin-top: 1%;
+    /* margin-left: 30px; */
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 4rem;
+    font-weight: bold;
+    
+    color: #CDF0EA;
+}
+
+.tagline{
+    color: white;
+    font-size: 24px;
+    width: 70%;
+    /* margin-left: 50px; */
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+    h1{
+        font-size: 4rem;
+    }
+    .title{
+        font-size: 3.1rem;
+        margin-left: 80px;
+        /* margin-top: 60px; */
+    }
+    .tagline{
+        margin-top: 20px;
+        font-size: 18px;
+        width: 70%;
+        margin-left: 90px;
+    }
+
+
+
+}
+@media only screen and (max-width: 800px) {
+    h1{
+        font-size: 4rem;
+        
+        margin-left: 40px;
+        width: 90%;
+    }
+    .bg .img{
+        width: 40%;
+    }
+    .bg .textbox {
+        width: 60%;
+    }
+    .bg .img .main-img{
+        /* width: 500px; */
+        right: 220px;
+    } 
+    
+    span {
+        font-size: 1rem;
+    }
+    .tagline{
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .title{
+        font-size: 2.5rem;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .span-tagline{
+        font-size: 3rem;
+    }
+    .headline-spam{
+        font-family: 'memphis';
+    
+        font-size: 3rem;
+        color: pink;
+    
+    }
+    .btn{
+        margin-left: 80px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .bg-top{
+        height: 750px;
+        background-image: none;
+        /* background-image: url(/src/img/4JXK.gif); */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/4JXK.gif);
+    }
+    .textbox h1{
+        margin: 0;
+        margin-top: 100px;
+        color: white;
+        font-weight: bolder;
+        font-size: 5rem;
+    }
+    .textbox .title{
+        
+        margin: 0;
+        text-align: center;
+        margin: 30px;
+        font-size: 2.2rem;
+        
+    }
+    .textbox .title span{
+        font-size: 2rem;
+    }
+    .textbox h1 .headline-spam{
+        font-size: 4.1rem;
+    }
+    .tagline{
+        margin: 0%;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 600;
+        font-family: 'poppins';
+
+    }
+    .textbox .btn{
+        margin: 0;
+        margin-top: 60px;
+
+    }
+    .bg {
+        flex-direction:column-reverse;
+    }
+    .bg .textbox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        position: absolute;
+        float: left;
+        width: 0;
+        height: 0px;
+    }
+    .bg .img .main-img{
+        /* width: 100px; */
+        height: 0px;
+        width: 0px;
+    }
+    h1{
+        color: black;
+    }
+    
+
+    /* .title{
+        margin-left: 150px;
+    }
+    span {
+        font-size: 1.8rem;
+    }
+    .tagline{
+        margin-top: 40px;
+        font-size: 16px;
+    } */
+}
+
+

@@ -1,0 +1,93 @@
+.readme-div{
+    display: flex;
+    /* flex: 60% 40%; */
+    width: 100%;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.readme-textbox{
+    width: 50%;
+    padding: 60px;
+}
+.readme-h1{
+    color: black;
+    margin-top: 0;
+}
+p{
+    margin-top: 15px;
+    font-size: 18px;
+    
+}
+.readme-img{
+    width: 40%;
+    /* height: 40%; */
+    background-image: url(/src/img/asteroids.jpg);
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    /* border-radius: 2%; */
+    margin: auto;
+    /* width: 100%; */
+    justify-content: center;
+    height: 400px;
+    
+}
+.img-2{
+    width: 90%;
+
+}
+.span-p {
+    color: blue;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1100px) {
+    .readme-textbox{
+        padding: 10px;
+        height: fit-content;
+    }
+    .readme-h1{
+        margin-bottom: 40px;
+    }
+    .readme-img{
+        margin: 0%;
+        width:40%;
+        height: 300px;
+        margin: 50px auto;
+
+    }
+    /* .img{
+        
+    } */
+}
+
+@media only screen and (max-width: 900px) {
+    .readme-div{
+        flex-direction:column;
+    }
+    .readme-textbox{
+        padding: 30px;
+        width: 100%;
+
+    }
+    .readme-h1{
+        margin-bottom: 40px;
+    }
+    .readme-img{
+        margin: 0%;
+        width:80%;
+        height: 300px;
+        margin: 50px auto;
+        margin-bottom: 0;
+        border-radius: 50%;
+        
+        /* padding: 50px; */
+
+    }
+    /* .img{
+        width: ;
+    } */
+}
+
