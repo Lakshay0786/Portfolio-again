@@ -13,9 +13,12 @@ const Herosection = () => {
                         <h1> <span className='headline-spam'> Hi! I Am </span><br></br> Lakshay Sharma</h1>
                         <p className='title'>Designer   <span className='span-tagline'>&</span>  Developer</p>
                         <p className='tagline'>I love to create beautiful and performant products with delightful user experiences</p>
-                        <button className={
-                            `btn ${classes.glow}`
-                        } type="button"> Contact me</button>
+                        <a href='https://drive.google.com/file/d/1uihtn-ep4JGaD11Ae8q-zZzoRK86U_dz/view?usp=sharing'>
+                            <button className={
+                                `btn ${classes.glow}`
+                            } type="button"> Resume</button>
+                        </a>
+
                     </div>
                 </div>
 

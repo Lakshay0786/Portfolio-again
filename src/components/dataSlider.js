@@ -17,6 +17,7 @@ const dataSlider = [
     title: "Netflix Clone",
     subTitle: "A functional & responsive Netflix clone built using react.js, SCSS, Fetching data from an Api. Key features include getting data from the server ",
     img: 'Screenshot from 2022-09-21 11-25-25.png',
+    Link: 'https://netflix-naj9bhhx6-lakshay0786.vercel.app/',
     stack1: 'JavaScript',
     stack2: 'Axios',
     stack3: 'React.js',
@@ -28,6 +29,8 @@ const dataSlider = [
     subTitle: "Space Tourism landing page is a frontend practice challenge to sharpen up my Tailwind CSS skills. Key features includes Nesting of react-router-dom, fetch data dynamically, alternating sections.",
     img: 'Screenshot from 2022-09-21 11-29-09.png',
 
+    Link: "https://space-yxd5-6sk9n1jnd-lakshay0786.vercel.app/home",
+
     stack1: 'JavaScript',
     stack2: 'tailwind CSS',
     stack3: 'React.js',
@@ -38,6 +41,7 @@ const dataSlider = [
     title: "Parallax scrolling ",
     subTitle: "In this  background images move past the camera more slowly than foreground images, creating an illusion of depth in a 2D scene of distance.",
     img: 'Screenshot from 2022-09-21 11-30-36.png',
+    Link: 'https://lakshay0786.github.io/Parallelex-website/',
     stack1: 'JavaScript',
     stack2: 'CSS',
   },
@@ -46,6 +50,18 @@ const dataSlider = [
     title: "Discord Website Clone",
     subTitle: "Discord landing page is a frontend practice challenge to sharpen up my  CSS skills. learned about Positions and how to style a layout",
     img: 'Screenshot from 2022-09-21 11-39-35.png',
+
+    stack1: 'Html',
+    stack2: 'CSS',
+    stack3: 'Git',
+  },
+  {
+    id: uuidv4(),
+    title: "MBA CHAIWALA Website Clone",
+    subTitle: "MBA ChaiWala landing page is a frontend practice challenge to sharpen up my  CSS skills. learned about Positions and how to style a layout",
+    img: 'Screenshot from 2022-10-10 15-35-34.png',
+
+    Link: 'https://chaiwala-eie15weh2-lakshay0786.vercel.app/',
 
     stack1: 'Html',
     stack2: 'CSS',

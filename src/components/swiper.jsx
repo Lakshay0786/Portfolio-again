@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+
+import classes from './button.module.css'
 import "swiper/css/navigation";
 import './swiper.css'
 
@@ -46,6 +48,7 @@ function SkillSwiper() {
                                         <h4>{obj.stack3}</h4>
                                         <h4>{obj.stack4}</h4>
                                     </div>
+                                    <a href={obj.Link}><button className={`btn ${classes.glow}`} >Live Preview</button></a>
                                 </div>
                             </div>
                         </SwiperSlide>
