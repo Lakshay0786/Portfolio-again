@@ -1,11 +1,37 @@
 import { v4 as uuidv4 } from "uuid";
 
 const dataSlider = [
+
   {
     id: uuidv4(),
-    title: "Adventure ",
-    subTitle: "My first project using React.js & css-module  skills. Learned how to build a responsive hamburger menu, padding, margin, typography, deploying on Netlify",
-    img: 'localhost_3000_ (2).png',
+    title: "Parasite ",
+    subTitle: "Designed And Developed a Movies information Site using react.js and Fetching data from the tmdb API , Clean UI using HTML,CSS and Key features are Using ,fetch data dynamically A functional and responsive imdb clone built using React.js ,Redux",
+    img: 'parasite.png',
+    Link: "https://parasite-4hot.vercel.app/",
+
+    stack1: 'JavaScript',
+    stack2: 'tailwind CSS',
+    stack3: 'React.js',
+  },
+  {
+    id: uuidv4(),
+    title: "The Watcher ",
+    subTitle: "Designed And Developed a video streaming platform Clone Website using react.js and Fetching data from the youtube API , Clean UI using HTML,CSS and Key features are Using ,fetch data dynamically A functional and responsive Youtube clone built using React.js ,Redux",
+    img: 'watcher.png',
+    Link: 'https://thewatcherplayer.vercel.app/',
+
+    stack1: 'JavaScript',
+    stack2: 'tailwind CSS',
+    stack3: 'React.js',
+    stack4: 'Material UI',
+    stack5: 'Redux'
+  },
+  {
+    id: uuidv4(),
+    title: "Shop ECommerce Website ",
+    subTitle: "This is a Ecommerce store webiste to buy shoes , Neat and clean UI , used many transitions ",
+    img: 'shopshoe.png',
+    Link: "https://shopshoe.vercel.app/",
 
     stack1: 'JavaScript',
     stack2: 'tailwind CSS',
@@ -45,16 +71,7 @@ const dataSlider = [
     stack1: 'JavaScript',
     stack2: 'CSS',
   },
-  {
-    id: uuidv4(),
-    title: "Discord Website Clone",
-    subTitle: "Discord landing page is a frontend practice challenge to sharpen up my  CSS skills. learned about Positions and how to style a layout",
-    img: 'Screenshot from 2022-09-21 11-39-35.png',
 
-    stack1: 'Html',
-    stack2: 'CSS',
-    stack3: 'Git',
-  },
   {
     id: uuidv4(),
     title: "MBA CHAIWALA Website Clone",

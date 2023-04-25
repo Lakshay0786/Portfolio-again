@@ -20,7 +20,6 @@ function Footer() {
 
                 </div>
                 <p className='last-p'>Designed & built by Lakshay Sharma
-                    <img src='https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/hugging-face_1f917.png' alt='foot' />
                 </p>
 
             </div>
