@@ -28,6 +28,17 @@ const dataSlider = [
   },
   {
     id: uuidv4(),
+    title: "The Imdb Clone ",
+    subTitle: "A functional & responsive Imdb clone built using react.js, Fetching data from an Api. Key features include getting data from the server, Clean UI using HTML,CSS and Key features are Using ,fetch data dynamically A functional and responsive Imdb clone built using React.js ",
+    img: 'imdb.png',
+    Link: 'https://imbd-clone.vercel.app/',
+
+    stack1: 'JavaScript',
+    stack2: 'CSS',
+    stack3: 'React.js',
+  },
+  {
+    id: uuidv4(),
     title: "Shop ECommerce Website ",
     subTitle: "This is a Ecommerce store webiste to buy shoes , Neat and clean UI , used many transitions ",
     img: 'shopshoe.png',
